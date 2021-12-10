@@ -17,7 +17,7 @@ public class While3Idade {
 		if(idade>=50) {
 			maior50++;
 		}
-		while (idade<=99) {
+		while (idade!=-99) {
 			System.out.println("Informe sua idade: ");
 			idade = leia.nextInt();
 			if (idade<=21) {
