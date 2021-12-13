@@ -31,7 +31,12 @@ public class Array2Vetor {
 			if (numero[x] %2==0) {
 			System.out.println("Os numeros pares são " +numero[x]);
 		}
+			else
+			{
+				System.out.println("Os numero impares são "+numero[x]);
+			}
 		}
+		
 		
 		System.out.println("\nA soma dos Pares é: "+somaPar);
 		System.out.println("\n A soma dos impares é "+somaImpar);
